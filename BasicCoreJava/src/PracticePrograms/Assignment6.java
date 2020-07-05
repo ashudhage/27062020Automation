@@ -19,7 +19,7 @@ public class Assignment6
 		
 		for(int i : prize)
 		{
-			System.out.println(i);
+			System.out.println("Prize of Fruit : " +i);
 		}
 		
 		
