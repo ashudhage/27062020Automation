@@ -8,8 +8,20 @@ public class Assignment6
 		//  create array for fruit prize
 		// size 10*5
 		
-		String[] fruitName= new String[10];
-		int [] prize=new int[10];
+		String[] fruitName= {"Apple","Orange","Guava","Kiwi","Grapes","Cherry","Plum","Banana","Mango","Strawberry"};
+		int [] prize= {100,50,60,120,150,300,250,40,300,150};
+		
+		for(String name : fruitName)
+		{
+			System.out.println("Fruit Name : " +name);
+		}
+		
+		
+		for(int i : prize)
+		{
+			System.out.println(i);
+		}
+		
 		
 		
 	}
