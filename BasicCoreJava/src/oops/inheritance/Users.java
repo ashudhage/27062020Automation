@@ -9,12 +9,14 @@ public class Users
 		sm.texting();
 		sm.videoCall();
 		
-		Mobile mob=new Mobile();
+		
+		/*Mobile mob=new Mobile();
 		mob.calling();
 		mob.texting();
 		
 		Telephone tp=new Telephone();
 		tp.calling();
+		*/
 	}
 
 }
