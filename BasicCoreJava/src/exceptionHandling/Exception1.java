@@ -4,7 +4,7 @@ public class Exception1
 {
 	public static Function1 fun; // creating reference variable of class "Function1"
 	
-	public static void main(String[] args)
+	public static void main(String[] args) throws Exception
 	{
 		// 1st Exception : java.lang.ArithmeticException: / by zero
 		int a=10;
@@ -18,7 +18,10 @@ public class Exception1
 		
 		
 		// 3 rd Exception :  java.lang.NullPointerException
-		fun.fun1(); 
+		//fun.fun1();
+		
+		throw new Exception("testing");
+		
 		
 	}
 
