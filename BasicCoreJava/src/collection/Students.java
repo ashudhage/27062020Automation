@@ -10,6 +10,7 @@ public class Students
 	{
 		String [] std=new String [18];
 		Object Telephone=new SmartPhone();
+		 
 		Object a=10;
 		Object name="ashu";
 		Object b=true;
